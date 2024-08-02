@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">MySeLf <span>ChAnDu</span></a>
+        <i class="bi bi-list bx"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="photo.jpeg">
+        </div>
+        <div class="home-cont">
+            <h1>MySeLf<span> ChAnDu</span></h1>
+            <h3>I am a <span>W</span><span>e</span><span>b</span><span> &nbsp; </span><span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span></h3>
+
+            <p>I am a third-year BTech Computer Science Engineering student with a passion for web development. I specialize in creating responsive and dynamic web applications using modern technologies like React, HTML, CSS, and JavaScript. My goal is to build innovative solutions that enhance user experiences and streamline processes.</p>
+            <div class="social-icons">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+               <a href="https://www.linkedin.com/in/chintalapudi-chandra-sekhar-2468b4287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i class="bi bi-linkedin"></i></a>
+                <i class="bi bi-twitter"></i>
+            </div>
+            <a href="#contact"><button>Hire me</button></a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-img">
+            <img src="photo.jpeg">
+        </div>
+        <div class="about-cont">
+            <h1>About <span>Me</span></h1>
+            <h3><span>W</span><span>e</span><span>b</span><span>&nbsp;</span><span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span></h3>
+            <p>I am passionate about creating innovative and user-friendly web applications. 
+            Throughout my academic journey, I have developed a keen interest in problem-solving and coding, which drives me to continuously learn and explore new technologies. 
+            </p>
+            <button>Read More</button>
+        </div>
+       
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <div class="skill-box">
+                <h3>Frontend Development</h3>
+                <p>Proficient in HTML, CSS, and JavaScript, with experience in creating responsive and interactive web applications using modern frameworks like React.js. Skilled in integrating APIs, ensuring cross-browser compatibility, and adhering to UI/UX principles for optimal user experiences. Familiar with version control using Git and proficient in using tools like Vite for efficient development workflows. Continuously learning and staying updated with the latest front-end technologies and best practices.</p>
+            </div>
+            <!-- <div class="skill-box">
+                <h3>Backend Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat dolorem alias cupiditate accusamus, error nesciunt enim harum officiis perspiciatis pariatur itaque? Reprehenderit ipsa ab, quae qui quis a omnis.</p>
+            </div> -->
+            <div class="skill-box">
+                <h3>Java Programming</h3>
+                <p>Proficient in core Java programming, with a solid understanding of object-oriented principles and design patterns. Experienced in developing robust and efficient applications using Java, focusing on problem-solving and algorithm development. Skilled in using Java libraries and tools for creating high-quality code. Continuously learning and staying updated with the latest Java developments and best practices.</p>
+            </div>
+            <div class="skill-box">
+                <h3>DSA with Java</h3>
+                <p>Proficient in Data Structures and Algorithms (DSA) using Java, with a strong understanding of fundamental concepts such as arrays, linked lists, stacks, queues, trees, and graphs. Experienced in solving complex problems using efficient algorithms and techniques, including sorting, searching, and dynamic programming. Skilled in applying DSA knowledge to optimize code performance and enhance problem-solving capabilities. Continuously learning and staying updated with the latest advancements in DSA and Java.</p>
+            </div>
+            <!-- <div class="skill-box">
+                <h3>MERN Stack</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat dolorem alias cupiditate accusamus, error nesciunt enim harum officiis perspiciatis pariatur itaque? Reprehenderit ipsa ab, quae qui quis a omnis.</p>
+            </div> -->
+            <div class="skill-box">
+                <h3>Communication Skill</h3>
+                <p>Excellent communication skills, with the ability to clearly articulate ideas and collaborate effectively with team members. Proficient in both written and verbal communication, ensuring clear and concise information exchange. Skilled in active listening, providing constructive feedback, and fostering a positive and productive team environment. Continuously working on improving communication abilities to enhance teamwork and project outcomes.</p>
+            </div>
+    </div>
+    </section>
+    <section id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <input type="text" placeholder="FUll Name">
+        <input type="text" placeholder="Email">
+        <input type="number" placeholder="Phone Number">
+        <input type="text" placeholder="Subject">
+        <input type="text" placeholder="Your Message" style="height: 12rem;">
+        <button>Send</button>
+    </section>
+    <footer class="footer">
+        <div class="social-icons">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <a href="https://www.linkedin.com/in/chintalapudi-chandra-sekhar-2468b4287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i class="bi bi-linkedin"></i></a>
+                <i class="bi bi-twitter"></i>
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <p>@ MySeLf ChAnDu | All Rights Reserved</p>
+    </footer>
+    <script>
+        const clickSound = new Audio('click-sound.mp3');
+
+        // Function to play the sound
+        function playSound() {
+            clickSound.play();
+        }
+
+        // Add event listener to the entire document
+        document.addEventListener('click', playSound);
+    </script>
+</body>
+</html>
+
+
